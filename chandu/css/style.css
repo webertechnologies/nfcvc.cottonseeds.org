@@ -1,0 +1,157 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 30em;
+}
+main .screen {
+  top: -2.8em;
+  position: relative;
+}
+main .screen .banner p.banner-title {
+  position: relative;
+  bottom: -3em;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 45px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.4);
+}
+main .screen .banner img.banner {
+  width: 100%;
+}
+main .screen .banner img.brand {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 96px;
+  position: relative;
+  left: 2em;
+  width: 7em;
+  bottom: 4.5em;
+}
+main .screen .content {
+  margin: 2em;
+  position: relative;
+  bottom: 5em;
+}
+main .screen .content .article h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+main .screen .content .article p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #706c6c;
+}
+main .screen .content .mini-icons ul {
+  padding: 0;
+  display: flex;
+}
+main .screen .content .mini-icons ul li {
+  list-style: none;
+  margin-right: 1em;
+}
+main .screen .content .mini-icons ul li a {
+  text-decoration: none;
+}
+main .screen .content .mini-icons ul li.btn {
+  background: #795548;
+  box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  padding: 0.6em 1.5em;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+main .screen .content .mini-icons ul li.btn a {
+  color: #ffffff;
+}
+main .screen .content .mini-icons ul li.white {
+  background: #fffefe;
+}
+main .screen .content .mini-icons ul li.white a {
+  color: #000000;
+}
+main .screen .content .main-card {
+  background: rgb(121, 85, 72, 0.1);
+  box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  padding: 1em 1.5em;
+  margin-top: 2em;
+}
+main .screen .content .main-card .title-wrap {
+  margin-bottom: 2em;
+}
+main .screen .content .main-card .title-wrap h5,
+main .screen .content .main-card .title-wrap p {
+  margin: 0;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+main .screen .content .main-card .title-wrap h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+main .screen .content .main-card .title-wrap p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #898989;
+}
+main .screen .content .main-card .description-wrap ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+main .screen .content .main-card .description-wrap ul li {
+  list-style: none;
+  display: flex;
+}
+main .screen .content .main-card .description-wrap ul li img {
+  margin-right: 1em;
+  width: 1.5em;
+}
+main .screen .content .main-card .description-wrap ul li p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+main .screen .content .main-card .description-wrap ul li p a {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+main .screen .content .main-card .description-wrap p.quote {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 2em 0em;
+  text-align: center;
+  color: #706c6c;
+} /*# sourceMappingURL=style.css.map */
